@@ -37,7 +37,7 @@ class _DrawingBoardState extends State<DrawingBoard> {
       rows,
       (i) => List.generate(
         columns,
-        (j) => 0,
+        (j) => -1,
         growable: false,
       ),
       growable: false,
